@@ -3,10 +3,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
     padding: 3rem;
     text-align: center;
-    border-radius: 1rem;
+    border-radius: .5rem;
 }
 
 img {
@@ -18,12 +17,11 @@ img {
 .name {
     color: var(--color-white);
     margin-bottom: .7rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .location {
     color: var(--color-green);
-    font-size: 1.8rem;
 }
 
 .paragraph {
@@ -32,53 +30,34 @@ img {
 }
 
 .links {
-    width: 100%;
+  
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 01rem;
+    gap: 1rem;
+    
 }
 
-.links div {
-    overflow: hidden;
+
+
+
+.links a {
     background-color: var(--color-grey-700);
-    width: 100%;
-    height: 8vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: .5rem;
-
-}
-
-.links div a {
     color: white;
     text-decoration: none;
-    font-size: 1.8rem;
     font-weight: 600;
-    width: 100%;
-    height: 8vh;
+    width: 25rem;
+   padding: 1rem ;
+border-radius: .5rem;
     transition: .4s;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.links div a:hover {
+.links a:hover {
     background-color: var(--color-green);
 
     color: var(--color-grey-800);
 }
 
-@media screen and (max-width:450px) {
-    .card {
-        width: 90%;
-    }
-
-    .paragraph {
-        font-size: 1.5rem;
-    }
-.links div{
-    height: 7vh;
-}
-}
