@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="/css-style/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,19 +14,19 @@
 
 
 </head>
-<body>
+<body class=" bg-[var(--color-grey-900)] text-bold h-screen text-white-800 flex items-center justify-center text-[1.4rem]">
 
-<section class="card">
-<img src="/assets/images/avatar-jessica.jpeg" alt="avatar-jessica">
-<span class="name"> Jessica Randall</span>
-<div class="location">  London, United Kingdom</div>
-<p class="paragraph"> "Front-end developer and avid reader."</p>
-<div class="links">
-  <a href="https://github.com/fakhreddinelargou"  target="_blank">GitHub</a>
-  <a href="https://www.frontendmentor.io/profile/fakhreddinelargou" target="_blank">Frontend Mentor</a>
-  <a href="https://www.linkedin.com/in/fakhreddine-largou-05b7a3340/" target="_blank">LinkedIn</a>
-  <a href="https://x.com/LFakhrddin" target="_blank">Twitter</a>
-  <a href="https://www.instagram.com/fakhreddine_largou/" target="_blank">Instagram</a>
+<section class="card bg-[var(--color-grey-800)] flex flex-col items-center p-[2rem] text-center rounded-[.5rem] mt-[2rem] mb-[2rem]">
+<img class="w-[8rem] rounded-[50%] mb-[1.5rem]" src="/assets/images/avatar-jessica.jpeg" alt="avatar-jessica">
+<span class="name text-[var(--color-white)] mb-[.7rem] text-[2.5rem]"> Jessica Randall</span>
+<div class="location text-[var(--color-green)]">  London, United Kingdom</div>
+<p class="paragraph my-[2rem] text-[rgba(255,255,255)] text-opacity-70 "> "Front-end developer and avid reader."</p>
+<div class="links flex flex-col items-center gap-[1rem]">
+  <a class="bg-[var(--color-grey-700)] text-white no-underline font-semibold w-[25rem] p-[1rem] rounded-[.5rem] transition-all duration-[400ms] flex justify-center items-center hover:bg-[var(--color-green)] hover:text-[var(--color-grey-800)]" href="https://github.com/fakhreddinelargou"  target="_blank">GitHub</a>
+  <a class="bg-[var(--color-grey-700)] text-white no-underline font-semibold w-[25rem] p-[1rem] rounded-[.5rem] transition-all duration-[400ms] flex justify-center items-center hover:bg-[var(--color-green)] hover:text-[var(--color-grey-800)]" href="https://www.frontendmentor.io/profile/fakhreddinelargou" target="_blank">Frontend Mentor</a>
+  <a class="bg-[var(--color-grey-700)] text-white no-underline font-semibold w-[25rem] p-[1rem] rounded-[.5rem] transition-all duration-[400ms] flex justify-center items-center hover:bg-[var(--color-green)] hover:text-[var(--color-grey-800)]" href="https://www.linkedin.com/in/fakhreddine-largou-05b7a3340/" target="_blank">LinkedIn</a>
+  <a class="bg-[var(--color-grey-700)] text-white no-underline font-semibold w-[25rem] p-[1rem] rounded-[.5rem] transition-all duration-[400ms] flex justify-center items-center hover:bg-[var(--color-green)] hover:text-[var(--color-grey-800)]" href="https://x.com/LFakhrddin" target="_blank">Twitter</a>
+  <a class="bg-[var(--color-grey-700)] text-white no-underline font-semibold w-[25rem] p-[1rem] rounded-[.5rem] transition-all duration-[400ms] flex justify-center items-center hover:bg-[var(--color-green)] hover:text-[var(--color-grey-800)]" href="https://www.instagram.com/fakhreddine_largou/" target="_blank">Instagram</a>
 </div>
 </section>
 
